@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto';
+}
+.online{
+    background: #0b3600;
+    position: absolute;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: none;
+    h3{
+        color: #ffffff;
+    }
+}
+.offline{
+    background: #e22d00;
+    position: absolute;
+    top: 50px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: none;
+    h3{
+        color: #ffffff;
+    }
+}
